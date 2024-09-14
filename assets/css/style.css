@@ -27,6 +27,7 @@ section{
     height: 70px;
 }
 
+
 .menu-left{
     display: flex;
     flex: 2;
@@ -39,7 +40,7 @@ section{
 }
 
 .logo{
-    background-image: url(../css/img/astronauta.png);
+    background-image: url(img/astronauta.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100px;
@@ -63,8 +64,6 @@ section{
     font-family: "Open Sans", sans serif;
 }
 
-
-
 a:hover {
     color: chocolate;
     letter-spacing: 5px;
@@ -72,14 +71,14 @@ a:hover {
 
 .banner{
     display: flex;
-    background-image: url(../css/img/espaco.jpg);
+    background-image: url(img/espaco.jpg);
+    background-attachment: fixed; 
     height: 350px;
     width: 100%;
     background-size: cover;
     background-position: center 28%;
     background-repeat: no-repeat;
     margin-bottom: 40px;
-
 }
 
 .news{
@@ -90,7 +89,6 @@ a:hover {
 
 .news-left {
     flex: 2;
-    
     align-items: center;
     height: 150px;
     
@@ -98,16 +96,35 @@ a:hover {
 
 .news-right {
     flex: 1;
- 
     align-content: center;
     height: 150px;
     text-align: center;
+    
 
- 
+   
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+  
 }
+  
+ 
+
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #e83e8c, 0 0 20px #e83e8c, 0 0 30px #e83e8c;
+    transform: scale(1.1);
+  
+}
+
+
+
+
+
 .news-left p {
     text-align: center;
     font-weight: bold;
+
 }
 
 .news-left h2 {
@@ -119,85 +136,94 @@ a:hover {
 
 .titulo {
 
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 60px;
+    margin-left: 35px;
     color: white;
     font-weight: bold;
-    font-size: 21px;
-    padding-top: 60px;
+    font-size: 25px;
+    padding-top: 60x;
     padding-bottom: 20px;
-}
-
-.eventos {
-    display: flex;
-    width: 100%;
-    height: 250px;
-    gap: 60px;
     align-items: center;
     justify-content: center;
   
 }
 
-
-
+.eventos {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+   
+}
 
 .eventos-1{
- 
+   
     height: 170px;
-    width: 190px;
+    width: 180px;
     background-image: url(img/mundosenai.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-    
-
-  
+    margin: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    border: 3px solid orchid
 }
 
+    
 .eventos-2{
+   
+    width: 182px;
     height: 170px;
-    width: 170px;
     background-image: url(img/inovasenai.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    
-
+    margin: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    border: 3px solid orchid;
 }
 
 .eventos-3 {
-  
+    width: 170px;
     height: 170px;
-    width: 190px;
     background-image: url(img/grandprix.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-   
-  
+    margin: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    border: 3px solid orchid;
+
 }
+
+.eventos-1:hover, .eventos-2:hover, .eventos-3:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
 
 .container2 {
     background-image: url(img/universo.jpg);
+    background-attachment: fixed; 
     width: 100%;
     background-size: cover;
-    margin-bottom: 50px;
+    height: 350px;
    
 
 }
-
-
 
 .text {
     flex: 2;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
-   
+    align-items: center;
+    height: 150px;
     
-
+   
     
 }
 
@@ -205,6 +231,7 @@ a:hover {
     text-align: center;
     font-weight: bold;
     margin-bottom: 10px;
+   
 
 
 }
@@ -216,11 +243,15 @@ a:hover {
     margin: 10px 0;
     line-height: 1.5;
     
+   
+    
 }
+
+
 
 .img1 {
     background-image: url(img/senai1.jpeg);
-    width: 80px ;
+    width: 80px;
     height: 80px;
     border-radius: 50px;
     background-repeat: no-repeat;
@@ -238,19 +269,17 @@ a:hover {
     
 }
 
-
-.flex-container {
+.flex-container{
     margin: 0 auto;
     max-width: 900px;
     display: flex;
-    
 }
 
-.flex {
+.flex{
     display: flex;
 }
 
-.flex-text {
+.flex-text{
     flex: 1;
     font-weight: bolder;
     text-align: center;
@@ -259,24 +288,24 @@ a:hover {
 .flex-text h2{
     margin-bottom: 20px;
 }
-.container-imgs {
+
+.container-imgs{
     display: flex;
     justify-content: center;
     align-items: center;
-   width: 300px;
-   
+    width: 300px;
 }
 
 .rodape {
     display: flex;
     background-color: black;
-    margin-top: 35px;
-    height: 50px;
+    margin-top: 45px;
+    height: 60px;
     color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 14px;
     width: 100%;
-
+    
 }
