@@ -40,7 +40,7 @@ section{
 }
 
 .logo{
-    background-image: url(img/astronauta.png);
+    background-image: url(css/img/astronauta.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100px;
@@ -71,7 +71,7 @@ a:hover {
 
 .banner{
     display: flex;
-    background-image: url(img/espaco.jpg);
+    background-image: url(css/img/espaco.jpg);
     background-attachment: fixed; 
     height: 350px;
     width: 100%;
@@ -161,7 +161,7 @@ button:hover {
    
     height: 170px;
     width: 180px;
-    background-image: url(img/mundosenai.png);
+    background-image: url(css/img/mundosenai.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -175,7 +175,7 @@ button:hover {
    
     width: 182px;
     height: 170px;
-    background-image: url(img/inovasenai.jpg);
+    background-image: url(css/img/inovasenai.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ button:hover {
 .eventos-3 {
     width: 170px;
     height: 170px;
-    background-image: url(img/grandprix.jpg);
+    background-image: url(css/img/grandprix.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ button:hover {
 
 
 .container2 {
-    background-image: url(img/universo.jpg);
+    background-image: url(css/img/universo.jpg);
     background-attachment: fixed; 
     width: 100%;
     background-size: cover;
@@ -250,7 +250,7 @@ button:hover {
 
 
 .img1 {
-    background-image: url(img/senai1.jpeg);
+    background-image: url(css/img/senai1.jpeg);
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -259,7 +259,7 @@ button:hover {
 }
 
 .img2 {
-    background-image: url(img/senai2.jfif);
+    background-image: url(css/img/senai2.jfif);
     width: 80px ;
     height: 80px;
     border-radius: 50px;
